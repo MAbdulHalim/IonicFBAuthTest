@@ -1,0 +1,8 @@
+{
+  "name": "IonicFBAuthTest",
+  "app_id": "4fed26ff",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

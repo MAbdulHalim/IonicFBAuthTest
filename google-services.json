@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "562231822112",
+    "project_id": "ionictestapp-187800"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562231822112:android:dc6538ca3579b8ea",
+        "android_client_info": {
+          "package_name": "io.ionic.fbauthtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562231822112-2ti4fiihab181jn502b2e8i7eoodkl3k.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "562231822112-603n5c4l84689kj7djj0m7012i960jbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.ionic.fbauthtest",
+            "certificate_hash": "47d47c096ed328dc98e3149cdb0159681fdea0d5"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNJrhgaTObzNfgouR7R8uNNGhxleGwlFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

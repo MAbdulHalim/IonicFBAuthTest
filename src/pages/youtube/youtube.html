@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Youtube
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <p>
+        Login Using Google!
+      </p>
+      <div *ngIf="user.isLoggedIn; else youtubeLogin">
+        <h2>Hi, {{user.profile.name}} ({{user.profile.email}})</h2>
+        <p>
+          <button ion-button icon-right (click)="logout()">Logout</button>
+        </p>
+        <p>
+            <img src="{{user.profile.imageUrl}}" width="100" alt="{{user.profile.name}}" />
+        </p>
+      </div>
+  <ng-template #youtubeLogin>
+      <button ion-button icon-right block color="danger" (click)="googleLogin()">
+          Login with Google
+          <ion-icon name="logo-googleplus"></ion-icon>
+        </button>
+    </ng-template>
+</ion-content>
